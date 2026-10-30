@@ -5,8 +5,8 @@ except Exception as e:
     print(f"Import issues { e }")
 
 credentials = pika.credentials.PlainCredentials(
-        username="guest",
-        password="guest"
+        username="",
+        password=""
     )
 
 
